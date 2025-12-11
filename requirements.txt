@@ -1,0 +1,11 @@
+ultralytics>=8.3.0
+opencv-python
+numpy
+scikit-learn
+pandas
+torch>=2.0.0
+onnx>=1.19.1
+onnxruntime
+onnxruntime-tools
+onnx-simplifier
+tensorflow
