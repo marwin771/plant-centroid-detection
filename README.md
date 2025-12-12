@@ -87,3 +87,7 @@ This script will:
 - **Motivation**: Centroids computed from YOLO bounding boxes are approximate and may not represent the true plant center.
 - **Solution**: Apply green color segmentation to the detected bounding box region to generate a mask of the plant. The mask allows precise calculation of the actual centroid.
 - **Output**: Refined centroids, visualizations of masks overlaid on images, and CSV files with accurate coordinates.
+
+  ```bash
+python ML+CV_hybrid.py
+```
