@@ -87,6 +87,6 @@ This script will:
 - **Solution**: Apply green color segmentation to the detected bounding box region to generate a mask of the plant. The mask allows precise calculation of the actual centroid.
 - **Output**: Refined centroids, visualizations of masks overlaid on images, and CSV files with accurate coordinates.
 
-  ```bash
+```bash
 python ML+CV_hybrid.py
 ```
