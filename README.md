@@ -81,9 +81,13 @@ This script will:
 
 ---
 
-## ML + CV Hybrid Approach
+## BONUS ML + CV Hybrid Approach
 **ML+CV_hybrid.py**: Combines YOLOv8 object detections with classical computer vision segmentation to improve plant centroid localization.
 
 - **Motivation**: Centroids computed from YOLO bounding boxes are approximate and may not represent the true plant center.
 - **Solution**: Apply green color segmentation to the detected bounding box region to generate a mask of the plant. The mask allows precise calculation of the actual centroid.
 - **Output**: Refined centroids, visualizations of masks overlaid on images, and CSV files with accurate coordinates.
+
+---
+
+## Report
