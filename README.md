@@ -25,7 +25,6 @@ Both pipelines take `.bmp` images as input and output:
   - **yolov8n.pt** YOLOv8 pretrained model used for detection.
   - **runs/detect/train/**: Directory containing the training outputs and checkpoints. Includes both `.pt` and `.onnx` versions of the trained models in **weights/**.
   - **dataset/**: images and labels(bbox) for train, test, val
-- **report.pdf**:  
 - **requirements.txt**: Python dependencies  
 - **README.md**: Project documentation
 
